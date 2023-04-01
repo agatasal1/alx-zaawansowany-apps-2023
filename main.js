@@ -27,3 +27,4 @@ const average = sum / products.length;
 
   console.log(sum)
   console.log(average)
+  console.log(products.reduce((acc, elem) => acc += elem.price, 0) )
