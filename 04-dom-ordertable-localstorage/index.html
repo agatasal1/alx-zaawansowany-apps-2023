@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<!-- <body>
+  <form id="addProductForm">
+    <label for="id">ID:</label>
+    <input type="number" id="id" name="id" required>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="price">Price:</label>
+    <input type="number" step="0.01" id="price" name="price" required>
+
+    <input type="submit" value="Add Product">
+  </form>
+
+  <table>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Price</th>
+    </tr>
+
+  </table>
+  <div>
+    <button id="delete">Delete All</button>
+  </div>
+</body> -->
+
+<body>
+  <form id="orderForm">
+    <label for="id">ID:</label>
+    <input type="number" id="id" name="id" required>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="price">Price:</label>
+    <input type="number" id="price" name="price" required>
+
+    <input type="submit" value="Add Product">
+  </form>
+
+  <table id="orderTable">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody id="orderTableBody"></tbody>
+  </table>
+
+  <button id="removeOrdersButton">Remove orders</button>
+  <div>
+    <h2>Order summary</h2>
+
+    <p>Sum: <span id="ordersSum">0</span></p>
+    <p>Average Price: <span id="ordersAverage">0</span></p>
+    <button id="calculateButton">Calculate</button>
+  </div>
+
+  <script src="./js/main.js"></script>
+</body>
+
+<script src="./js/main.js"></script>
+
+</html>
