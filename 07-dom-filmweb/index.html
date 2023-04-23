@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <h1>Wyszukiwarka Filmów</h1>
+
+    <!-- formularz wyszukiwania -->
+    <form id="searchForm">
+        <input type="text" placeholder="Wpisz tytuł filmu" name="search">
+        <input type="submit" value="Szukaj">
+    </form>
+
+    <form>
+        <label>Sortuj po:
+            <select id="movieSortSelect">
+                <option value="desc">Dacie malejąco</option>
+                <option value="asc">Dacie rosnąco</option>
+            </select>
+        </label>
+    </form>
+
+    <!-- lista filmów -->
+    <div id='movieContainer' class="movie-container">
+
+    </div>
+
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
