@@ -10,6 +10,71 @@
 </head>
 
 <body>
+    <div>
+        <form id="searchForm">
+            <input type="text" id="searchInput" placeholder="Wpisz nazwę połączenia" name="search">
+            <input type="submit" value="Szukaj">
+        </form>
+
+        <form>
+            <label>Pokaż połączenia z miasta:
+                <select id="townSortSelect">
+                </select>
+            </label>
+        </form>
+
+        <form>
+            <label>Pokaż połączenia z dnia:
+                <select id="dateSortSelect">
+                </select>
+            </label>
+        </form>
+
+
+        <form id="addRailwayConnectionForm">
+            <label for="trainFrom">From:</label>
+            <input type="text" id="trainFrom" name="trainFrom" required>
+
+            <label for="trainTo">To:</label>
+            <input type="text" id="trainTo" name="trainTo" required>
+
+            <label for="departureTime">Time:</label>
+            <input type="text" id="time" name="Time" required>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="trainName">Train name:</label>
+            <input type="text" id="trainName" name="trainName" required>
+            <input type="submit" value="Dodaj">
+        </form>
+
+
+        <table id="trainTimetable">
+            <thead>
+                <tr>
+                    <th>From</th>
+                    <th>To</th>
+                    <th>Time</th>
+                    <th>Date</th>
+                    <th>Train name</th>
+                </tr>
+            </thead>
+            <tbody id="trainTimetableTableBody">
+                <tr>
+                    <td>Kołobrzeg</td>
+                    <td>Zakopane</td>
+                    <td>12:00</td>
+                    <td>23.05.2023</td>
+                    <td>Śnieżka</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+
+
     <script src="./js/main.js"></script>
 </body>
 

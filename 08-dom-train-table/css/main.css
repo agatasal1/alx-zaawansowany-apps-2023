@@ -1,0 +1,76 @@
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* style dla pola wyszukiwania */
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* style dla przycisku Szukaj */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+/* style dla całego formularza dodawania połączenia kolejowego */
+#addRailwayConnection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* style dla etykiet w formularzu dodawania połączenia kolejowego */
+label {
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* style dla pól tekstowych w formularzu dodawania połączenia kolejowego */
+input[type="text"],
+input[type="date"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+/* style dla tabeli rozkładu jazdy */
+#trainTimetable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* style dla nagłówka tabeli rozkładu jazdy */
+#trainTimetable th {
+    padding: 10px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+/* style dla wierszy w tabeli rozkładu jazdy */
+#trainTimetable tr {
+    border-bottom: 1px solid #ddd;
+}
+
+/* style dla komórek w tabeli rozkładu jazdy */
+#trainTimetable td {
+    padding: 10px;
+}
