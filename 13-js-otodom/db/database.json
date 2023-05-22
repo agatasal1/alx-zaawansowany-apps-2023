@@ -1,0 +1,28 @@
+{
+  "apartments": [
+    {
+      "id": 1,
+      "title": "stare mieszkanie 30m2 drogo",
+      "description": "      zmiana",
+      "price": "7999996",
+      "publication_date": "14.05.2028"
+    },
+    {
+      "id": 2,
+      "title": "30m, taniej nie sprzedam",
+      "description": "   Idealny stan, niemiec plakal jak sie wyprowadzal",
+      "price": "699999",
+      "publication_date": "10.05.2027"
+    }
+  ],
+  "users": [
+    {
+      "email": "abc@wp.pl",
+      "password": "1234"
+    },
+    {
+      "email": "jck@gmail.com",
+      "password": "qwerty"
+    }
+  ]
+}

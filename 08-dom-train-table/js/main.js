@@ -101,11 +101,13 @@ const handleAddConnection = (event) => {
     trainsTable = newTrainsTable;
     localStorage.setItem('trains', JSON.stringify(newTrainsTable));
 
-    trainFromInput.value = '';
-    trainToInput.value = '';
-    timeInput.value = '';
-    dateInput.value = '';
-    trainNameInput.value = '';
+
+    addRailwayConnectionForm.reset()
+    // trainFromInput.value = '';
+    // trainToInput.value = '';
+    // timeInput.value = '';
+    // dateInput.value = '';
+    // trainNameInput.value = '';
 
     renderTrainsTable(newTrainsTable)
     handleTownsSeletion(newTrainsTable)
