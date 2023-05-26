@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#taskDetails {
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px auto 0;
+  padding: 20px;
+}
+
+#taskDetails p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+#taskName {
+  font-weight: bold;
+}
+
+#taskDate {
+  color: #999;
+}
+
+/*# sourceMappingURL=detail.729c55fe.css.map */
